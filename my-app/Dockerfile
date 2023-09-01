@@ -1,7 +1,7 @@
-FROM ubuntu:22.04.2
+FROM node:latest
 
 # Create app directory
-WORKDIR "C:\\Users\\danny\\Project\\test-container\\my-app\\Dockerfile"
+WORKDIR https://github.com/Kabiso17/test-container.git
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
