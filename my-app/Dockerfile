@@ -1,7 +1,7 @@
-FROM node:18
+FROM node:latest
 
 # Create app directory
-WORKDIR /user/Deskop/myapp
+WORKDIR https://github.com/Kabiso17/test-container.git
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
